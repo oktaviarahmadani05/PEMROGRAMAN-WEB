@@ -1,0 +1,136 @@
+/* Pengaturan Umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4eee6; /* Cokelat sangat muda/krem latar belakang */
+    font-family: 'Poppins', sans-serif;
+    color: #4a3b32; /* Warna teks cokelat tua yang lembut */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Kartu Profil Utama */
+.card-container {
+    background-color: #fdfbf7; /* Putih gading/cokelat pucat yang bersih */
+    width: 100%;
+    max-width: 480px;
+    padding: 40px 30px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(110, 89, 75, 0.12);
+    text-align: center;
+    border: 1px solid #e8dfd5;
+}
+
+/* Bagian Foto Profil */
+.profile-img-box {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #d4bda8; /* Bingkai cokelat muda */
+    box-shadow: 0 4px 12px rgba(110, 89, 75, 0.15);
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Nama dan Info Akademik */
+.name {
+    font-size: 26px;
+    font-weight: 600;
+    color: #3b2d24; /* Cokelat tua pekat */
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.nim, .prodi {
+    font-size: 14px;
+    color: #8c7365; /* Cokelat medium */
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.prodi {
+    margin-bottom: 15px;
+}
+
+/* Garis Pemisah Estetik */
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #e8dfd5;
+    margin: 20px 0;
+}
+
+/* Judul Bagian (Tentang Saya & Hobi) */
+.section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5c473c;
+    margin-bottom: 12px;
+    letter-spacing: 0.3px;
+}
+
+/* Teks Tentang Saya */
+.about-text {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: #6b5648;
+    padding: 0 10px;
+}
+
+/* Daftar Hobi */
+.hobby-list {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.hobby-list li {
+    font-size: 14px;
+    color: #6b5648;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hobby-list span {
+    color: #a38671; /* Aksen cokelat muda untuk simbol hobi */
+    font-size: 12px;
+}
+
+/* Tautan Sosial Media */
+.social-links {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.social-links a {
+    color: #8c7365;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #4a3b32;
+    text-decoration: underline;
+}
+
+.separator {
+    color: #c7b5a5;
+    margin: 0 10px;
+}
